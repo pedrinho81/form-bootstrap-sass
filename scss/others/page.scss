@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/dsf-10-landing-page/assets/img/backgroundLp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+}
+
+.container1 {
+    background-color: $background-color;
+    width: 50%
+}
+
+.topLogo {
+    width: 30rem;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+}
+
+.btnSend{
+    transition: .5s;
+    font-weight: 900;
+    border: 2px solid $button-color;
+}
+
+.btnSend:hover {
+    transform: scale(1.2);
+    background-color: $button-color;
+}
+
+.fotter {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        width: 70%;
+    }
+}
+@media (max-width: 500px) {
+    .container1 {
+        width: 85%;
+    }
+}
